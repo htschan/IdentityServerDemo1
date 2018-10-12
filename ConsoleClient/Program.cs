@@ -15,7 +15,7 @@ namespace ConsoleClient
       {
          while (true)
          {
-            Console.WriteLine("1: Client Credentials 2: Resouce Owner Password 0: Exit");
+            Console.WriteLine("1: Client Credentials 2: Resource Owner Password 0: Exit");
             var choice = Console.ReadLine();
             if (!string.IsNullOrEmpty(choice))
             {
